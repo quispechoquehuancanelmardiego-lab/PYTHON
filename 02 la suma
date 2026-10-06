@@ -1,0 +1,8 @@
+#realiza una suma
+#definir variable y entrada
+numero1 = int(input("Ingresa el número 1 😁: "))
+numero2 = int(input("Ingresa el número 2 😁: "))
+#proseso
+suma = numero1 + numero2
+#salida
+print("La suma es:", suma ,"👍")
