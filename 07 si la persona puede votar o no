@@ -1,0 +1,15 @@
+#practica 7
+#REALIZE UN PROGRAMA QUE PERMITA saber si la persona puede votar o no puede votar
+#definir variable y entrada
+import os
+os.system("cls")
+nombre=input("ingrese su nombre: ")
+edad = int(input("Ingrese su edad 😁: "))
+#salida
+if (edad <= 18) :
+    print(f"no puedes votar   {nombre}  ")
+    print ("eres menor de edad")
+else:
+    print( f"si puedes votar {nombre} " )
+    print ("eres mayor de edad")
+
