@@ -1,0 +1,18 @@
+#practica 6
+#REALIZE UN PROGRAMA QUE PERMITA REALIZAR SUMAR 2 NUMEROS
+#SI SUPERA LOS 50 MANDAR "SUMA MAYOR" SINO "SUMA MENOR"
+#definir variable y entrada
+import os
+os.system("cls")
+numero1 = int(input("Ingresa el número 1 😁: "))
+numero2 = int(input("Ingresa el número 2 😁: "))
+#proseso
+suma = numero1 + numero2
+
+if (suma >= 50) :
+    print(f"El resultado de la suma es:  {suma} ")
+    print("Suma Mayor")
+else:
+    print(f"El resultado de la suma es:  {suma} ")
+    print("Suma Menor")
+
