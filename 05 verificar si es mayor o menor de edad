@@ -1,0 +1,15 @@
+#practica 5
+#REALIZE UN PROGRAMA QUE PERMITA saber si la persona es mayor de edad
+#definir variable y entrada
+import os
+os.system("cls")
+nombre = input("Ingrese su nombre 😁: ")
+edad = int(input("Ingrese su edad 😁: "))
+#proseso
+ 
+#salida
+if (edad >= 18) :
+    print(f"eres mayor de edad  {nombre}  👍")
+else:
+    print( f"no eres mayor de edad {nombre} 😢" )
+
