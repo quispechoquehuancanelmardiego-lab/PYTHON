@@ -1,0 +1,33 @@
+#practica 4
+#realize un programa para simular el comprovante de YAPE
+#con estos datos: monto para enviar , beneficiario , entidad emisor
+import os
+os.system("cls")
+#definir variable y entrada
+monto_dinero = float(input("monto para enviar: "))
+destinatario = input("nombre el beneficiario: ")
+entidad_emisor = input("entidad bancaria: ")
+#variables fijos
+fecha= "12/10/26"
+hora= "16:15 p.m."
+cuenta= "63084576"
+nro= "100100100"
+nombre= "Nelmar Diego"
+apellidos="Quispe Choquehuanca"
+#salida
+print("                     YAPE COMPROBANTE          ")
+print("┌──────────────────────────────────────────────────────┐")
+print ("  !Yapaste!")
+print (f"  Bs: {monto_dinero}")
+print ("")
+print (f"  Nombre: {destinatario} ")
+print (f"  Fecha: {fecha}   Hora: {hora}")
+print ("")
+print ("     DATOS DE LA TRANSACCIÓN  " )
+print ("")
+print (f"  Cuenta: {cuenta} ")
+print (f"  Destino: {entidad_emisor}")
+print (f"  Nro de transancion: {nro}")
+print (f"  Realizado por: {nombre} {apellidos}")
+print("└─────────────────────────────────────────────────────┘")
+print("             Con el respaldo del >BCP>                 ")
