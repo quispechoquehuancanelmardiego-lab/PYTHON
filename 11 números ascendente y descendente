@@ -1,0 +1,17 @@
+#practica 11
+#usamos la estructura FOR para mostrar
+#los numeros acendentemente
+import os
+os.system("cls")
+print ("MOSTRANDO NUMEROS ACENDENTE")
+print("       DEL 1 AL 20        ")
+for i in range(1, 20, 1):
+    print(i)
+
+#practica 11
+#usamos la estructura FOR para mostrar
+#los numeros decendentemente
+print ("MOSTRANDO NUMEROS DESENDENTE")
+print("       DEL 1 AL 20        ")
+for i in range(20, 0, -1):
+    print(i)
