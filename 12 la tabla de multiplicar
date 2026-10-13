@@ -1,0 +1,8 @@
+#practica 12
+#realiza una tabla de multiplicar
+import os
+os.system("cls")
+numero=int(input("ingrese el numero para realizar la tabla de multiplicar: "))
+for i in range (1, 11):
+    resultado=numero*i
+    print(f"{numero} x {i} = {resultado}")
