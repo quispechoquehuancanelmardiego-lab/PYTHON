@@ -1,0 +1,46 @@
+#practica 8 y 9
+#realiza un programa para una calculadora
+#utilizando la estructura SEGUN CASO    
+import os
+os.system("cls")
+#menu de opiones
+print("-----CALCULADORA-------")
+print("1. SUMA")
+print("2. RESTA")
+print("3. MULTIPLICACION")
+print("4. DIVISION")
+#ENTRADA
+opcion_calculadora=int(input("Eliga una opicion: "))
+numero1=int(input("Ingrese el primer numero: "))
+numero2=int(input("Ingrese el segundo numero: "))
+#proseso
+match opcion_calculadora:
+    case 1:
+     print("Operacion suma")
+     resultado=numero1+numero2
+     print(f"la suma es: {resultado}")
+    case 2:
+     print("Operacion resta")
+     resultado=numero1-numero2
+     print(f"la resta es: {resultado}")
+    case 3:
+     print("Operacion multiplicacion")
+     resultado=numero1+numero2
+     print(f"la multiplicacion es: {resultado}")
+    case 4:
+     if (numero2 != 0) :
+         print("Operacion division")
+         dividir = numero1 / numero2
+         print(f"La division  es: {dividir}")
+     else:
+         print("ERROR. No se puede dividir entre cero ")
+    case _:
+     print ("ERROR, seleccione nuevamente")
+print ("GRACIAS. POR UZAR MI CALCULADORA")
+
+#practica 8
+#es todo igual solo un arrego y es practica 9
+#case 4:
+#        print("Operacion division")
+#         dividir = numero1 / numero2
+#        print(f"La division  es: {dividir}")
