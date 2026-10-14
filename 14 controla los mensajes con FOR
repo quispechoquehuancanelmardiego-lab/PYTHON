@@ -1,0 +1,9 @@
+#practica 14
+#usamos For para controla los mensajes
+import os
+os.system("cls")
+print("CONTROL DE MENSAJES")
+print("     HOLA MUNDO    ")
+for i in range (1, 101, 1):
+    print (f"{(i)}. HOLA MUNDO")
+print("Este mensaje ya esta coompleto")
