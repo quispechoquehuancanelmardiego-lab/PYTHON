@@ -1,0 +1,18 @@
+#practica 16
+#usamos WHITE para un contador de numeros
+import os
+os.system("cls")
+print("CONTADOR DE NUMEROS")
+print("  DEL 1 AL 20  ")
+i=1
+while i < 21:
+    print (i)
+    i=i+1
+#decendente
+print("CONTADOR DE NUMEROS")
+print("  DEL 20 AL 1  ")
+i=20
+while i > 0:
+    print (i)
+    i=i-1
+print("CONTARDOR FINALIZADO :)")
