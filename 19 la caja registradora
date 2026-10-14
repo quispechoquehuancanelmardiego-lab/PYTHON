@@ -1,0 +1,14 @@
+#practica 19
+#usamos WHITE 
+#realiza una caja registradora
+import os
+os.system("cls")
+print("-----BIENVENIDOS A ESTA CAJA REGISTRADORA------")
+precio =float(input("precio del primer producto: "))
+total_precio =0.0
+while precio > 0:
+    total_precio=total_precio+precio
+    print(f"Total actual de precio es: {total_precio} Bs")
+    precio=float(input("precio del siguiente producto: "))
+    print("--presione el 0 para cobrar--")
+print(f"-TOTAL A PAGAR ES: {total_precio} Bs")
