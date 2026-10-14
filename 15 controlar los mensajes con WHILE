@@ -1,0 +1,10 @@
+#practica 15
+#usamos WHILE para controlar los mensajes
+import os
+os.system("cls")
+print("CONTROL DE MENSAJES")
+print("  HOLA MUNDO   ")
+i=""
+while i != "detener":
+    i =input("hola mundo - use el codigo para detener el mensaje: ")
+print("CODIGO CORRECTO - MENSAJE FINALIZADO :)")
