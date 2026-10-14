@@ -1,0 +1,10 @@
+#practica 17
+#usamos WHITE para medir la velocidad de un automovil
+import os
+os.system("cls")
+i=20
+while i <=  100:
+  print(f"velocidad actual: {i} Km, todo normal")
+  i =int(input("introduce nueva velocidad: "))
+print("PELIGRO. VELOCIDAD MAXIMA ")
+print("")
