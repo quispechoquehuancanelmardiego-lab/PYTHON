@@ -1,0 +1,10 @@
+#practica 18
+#usamos WHITE para medir la temperatura 
+import os
+os.system("cls")
+i=10
+while i < 25:
+  print(f"CLIMA ADECUADO {i} °C ")
+  i =int(input("introduce nueva temperatura: "))
+print(f"CALOR EXTREMO. ESTA UN {i} °C")
+print("")
