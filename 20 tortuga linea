@@ -1,0 +1,20 @@
+import turtle
+#practica 20
+#realiza una linea con turtle
+#configurar nuestra pantalla
+import os
+os.system("cls")
+pantalla=turtle.Screen()
+pantalla.bgcolor("black")
+#creando el objeto
+t1=turtle.Turtle()
+t1.shape("turtle")  #apariencia tortuga
+t1.color("red")
+t1.pensize(3)   #grosor
+
+t1.penup()
+t1.goto(-250, 0) #medidas
+t1.pendown()        #inicio del lapiz
+t1.forward(400)   #avanza hacia las derechas
+
+turtle.done()
