@@ -1,0 +1,25 @@
+import turtle
+#practica 22
+#realiza un cuadrado con turtle
+#configurar nuestra pantalla
+import os
+os.system("cls")
+pantalla=turtle.Screen()
+pantalla.bgcolor("black")
+#creando el objeto
+t1=turtle.Turtle()
+t1.shape("turtle")  #apariencia tortuga
+t1.color("green")
+t1.pensize(3)   #grosor
+t1.penup()
+t1.goto(-250, 150) #medidas
+t1.pendown()        #inicio del lapiz
+t1.forward(200)   #avanza hacia las derechas
+t1.right(90)
+t1.forward(200)
+t1.right(90)
+t1.forward(200)
+t1.right(90)
+t1.forward(200)
+t1.right(90)
+turtle.done()
