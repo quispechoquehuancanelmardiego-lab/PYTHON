@@ -32,4 +32,18 @@ t1.goto(1*t, 1.5*t)
 t1.goto(2*t, 1.5*t)
 t1.goto(0*t,4*t)
 t1.end_fill()
+#
+#tronco
+t1.penup()
+t1.color("brown") #color de lapiz
+t1.pensize(3)   #grosor de lapiz
+t1.begin_fill()
+t1.goto(-0.5*t, -3.5*t)
+t1.pendown()
+t1.goto(-0.5*t, -4.5*t)
+t1.goto(0.5*t, -4.5*t)
+t1.goto(0.5*t, -3.5*t)
+t1.goto(-0.5*t, -3.5*t)
+t1.end_fill()
 turtle.done()
+
